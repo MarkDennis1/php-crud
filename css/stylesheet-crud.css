@@ -1,0 +1,53 @@
+body {
+  background-color: #fdeae9;
+}
+
+.navbar-bg {
+  background-color: #ec755c;
+}
+
+.button-bg {
+  background-color: #ec755c;
+  color: white;
+}
+
+.container-header {
+  padding-top: 5em;
+}
+
+.container-table thead {
+  background-color: #ec755c;
+  color: white;
+}
+
+.button-edit-bg {
+  background-color: #63a184;
+}
+
+.button-delete-bg {
+  background-color: #e77883;
+}
+
+table {
+  background-color: white;
+}
+
+tr {
+  font-size: 30px;
+  font-size: 1vw;
+}
+
+.btn-add {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  outline: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: #ec755c;
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+}
