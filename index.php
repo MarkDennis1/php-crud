@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="px-4 pt-5 my-5 text-center border-bottom bg-color">
+    <div class="px-4 pt-5 my-5 text-center bg-color">
         <h1 class="display-4 fw-bold">What is CRUD?</h1>
         <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">CRUD is an acronym for Create, Read, Update, and Delete. CRUD operations are basic data manipulation for database. In this project, we'll display a simple PHP application to perform all these operations on a MySQL database table at one place.</p>
@@ -24,7 +24,6 @@
                 <a href="controls/crud.php">
                     <button type="button" class="btn button-bg">Student database</button>
                 </a>
-
             </div>
         </div>
         <div class="overflow-hidden" style="max-height: 30vh;">
@@ -32,6 +31,18 @@
                 <img src="images/crud-sample.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
             </div>
         </div>
+    </div>
+
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Alcachupas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Gamil</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Gerongga</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sanchez</a></li>
+            </ul>
+            <p class="text-center text-muted">2021 PHP-CRUD Final Project</p>
+        </footer>
     </div>
 
     <!-- Bootstrap JS -->

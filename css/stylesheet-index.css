@@ -1,8 +1,10 @@
 body {
-    background-color: #fdeae9;
+    /* background-color: #fdeae9; */
+    background-color: white;
 }
 
 .button-bg {
   background-color: #ec755c;
   color: white;
 }
+
