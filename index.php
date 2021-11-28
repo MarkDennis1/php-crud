@@ -21,7 +21,7 @@
             <p class="lead mb-4">CRUD is an acronym for Create, Read, Update, and Delete. CRUD operations are basic data manipulation for database. In this project, we'll display a simple PHP application to perform all these operations on a MySQL database table at one place.</p>
             <p class="lead mb-4">Press the button bellow to display the sample database.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <a href="page/crud-page.php">
+                <a href="controls/crud.php">
                     <button type="button" class="btn button-bg">Student database</button>
                 </a>
 
