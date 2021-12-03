@@ -108,12 +108,12 @@
                             <input type="text" class="form-control" id="student-number">
                             <label for="recipient-name" class="col-form-label">E-mail address:</label>
                             <input type="text" class="form-control" id="student-email">
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn button-bg">Add</button>
+                            </div>
                         </div>
                     </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="submit" class="btn button-bg" name="add">Add</button>
                 </div>
             </div>
         </div>
