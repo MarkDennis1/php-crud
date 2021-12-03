@@ -13,8 +13,8 @@
                 <th scope="col" id="mname">Middle Name</th>
                 <th scope="col" id="lname">Last name</th>
                 <th scope="col" id="suffix">Suffix</th>
-                <th scope="col" id="section">Section</th>
-                <th scope="col" id="sex">Sex</th>
+                <th scope="col" id="section">Sex</th>
+                <th scope="col" id="sex">Section</th>
                 <th scope="col" id="bday">Birthday</th>
                 <th scope="col" id="address">Address</th>
                 <th scope="col" id="number">Contact number</th>
