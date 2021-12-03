@@ -104,9 +104,12 @@ class MySqlDataProvider {
 
     private function connect() {
         try {
+            $message = "Database connected.";
+            echo "<script type='text/javascript'>alert('$message');</script>";
             return new PDO($this->source, CONFIG['db_user'], CONFIG['db_password']);
         } catch (PDOException $e) {
-            echo "error connect tanga";
+            $message = "No connected database.";
+            echo "<script type='text/javascript'>alert('$message');</script>";
             return null;
         }
     }

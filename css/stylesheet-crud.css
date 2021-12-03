@@ -11,10 +11,6 @@ body {
   color: white;
 }
 
-.container-header {
-  padding-top: 5em;
-}
-
 .container-table thead {
   background-color: #ec755c;
   color: white;
@@ -37,6 +33,10 @@ tr {
   font-size: 1vw;
 }
 
+.button-search-bg {
+  background-color: #e77883;
+}
+
 .btn-add {
   position: fixed;
   width: 60px;
@@ -46,8 +46,12 @@ tr {
   outline: 0;
   border: 0;
   border-radius: 50%;
-  background-color: #ec755c;
+  background-color: #8a8a8a;
   color: #fff;
   cursor: pointer;
   font-size: 30px;
+}
+
+.header-bg {
+  background-color: #ec755c;
 }
