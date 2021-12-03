@@ -6,6 +6,8 @@ $view_bag = [
     'heading' => 'Student list'
 ];
 
+$records = Data::get_student_records();
+
 if (is_get()) {
     if (isset($_GET['delete'])) {
         $id = $_GET['delete'];
@@ -23,9 +25,6 @@ if (is_get()) {
             $records = Data::get_student_records();
         }
     }
-    else {
-        $records = Data::get_student_records();
-    }
 
     if (isset($_GET['sort'])) {
         $sort = $_GET['sort'];
@@ -33,4 +32,27 @@ if (is_get()) {
     }
 }
 
+if (is_post()) {
+
+    if (isset($_POST['btnAddStudent'])) {
+
+        Data::add_student_profile($_POST['student-id'], $_POST['student-fname'], $_POST['student-mname'], $_POST['student-lname'], 
+        $_POST['student-suffix'], $_POST['student-sex'], $_POST['student-section'], $_POST['student-birthday'], $_POST['student-address'],
+        $_POST['student-number'], $_POST['student-email']);
+    }
+}
+
 view('crud', $records);
+
+
+    try {
+        $pdo = new PDO(CONFIG['db'], CONFIG['db_user'], CONFIG['db_password']);
+        if ($pdo !== null) {
+            $message = "Database connected.";
+            echo "<script type='text/javascript'>alert('$message');</script>";
+        }
+    } catch (PDOException $e) {
+        $message = "No connected database.";
+        echo "<script type='text/javascript'>alert('$message');</script>";
+        return null;
+    }
