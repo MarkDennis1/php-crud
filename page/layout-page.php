@@ -63,7 +63,7 @@
                         </ul>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" type="search" name="search" placeholder="Search" aria-label="Search">
                     <button class="btn button-search-bg" type="submit">Search</button>
                 </form>
             </div>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn button-bg">Add</button>
+                    <button type="submit" class="btn button-bg" name="add">Add</button>
                 </div>
             </div>
         </div>
