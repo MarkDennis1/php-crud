@@ -100,11 +100,11 @@
                         <label for="student-email" class="col-form-label">E-mail address:</label>
                         <input type="text" class="form-control" id="student-email" name="student-email">
                     </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn button-bg" name="btnUpdateStudent">Update</button>
+                    </div>
                 </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                <button type="button" class="btn button-bg" method="post" name="btnUpdateStudent">Save</button>
             </div>
         </div>
     </div>
