@@ -33,8 +33,8 @@ class Data {
     }
 
     //update selected record
-    static public function update_student_profile($id, $new_term, $definition){
-        return self::$mdp->update_student_profile($id, $new_term, $definition);
+    static public function update_student_profile($id, $fname, $mname, $lname, $suffix, $sex, $section, $bday, $address, $contact, $email){
+        return self::$mdp->update_student_profile($id, $fname, $mname, $lname, $suffix, $sex, $section, $bday, $address, $contact, $email);
     }
 
     //delete selected record
