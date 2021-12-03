@@ -84,30 +84,30 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form method="post">
                         <div class="mb-3">
                             <label for="recipient-name" class="col-form-label">Student ID:</label>
-                            <input type="text" class="form-control" id="student-id">
+                            <input type="text" class="form-control" id="student-id" name="student-id">
                             <label for="recipient-name" class="col-form-label">First name:</label>
-                            <input type="text" class="form-control" id="student-fname">
+                            <input type="text" class="form-control" id="student-fname" name="student-fname">
                             <label for="recipient-name" class="col-form-label">Middle Name:</label>
-                            <input type="text" class="form-control" id="student-mname">
+                            <input type="text" class="form-control" id="student-mname" name="student-mname">
                             <label for="recipient-name" class="col-form-label">Last name:</label>
-                            <input type="text" class="form-control" id="student-lname">
+                            <input type="text" class="form-control" id="student-lname" name="student-lname">
                             <label for="recipient-name" class="col-form-label">Suffix:</label>
-                            <input type="text" class="form-control" id="student-suffix">
+                            <input type="text" class="form-control" id="student-suffix" name="student-suffix">
                             <label for="recipient-name" class="col-form-label">Section:</label>
-                            <input type="text" class="form-control" id="student-section">
+                            <input type="text" class="form-control" id="student-section" name="student-section">
                             <label for="recipient-name" class="col-form-label">Sex:</label>
-                            <input type="text" class="form-control" id="student-sex">
+                            <input type="text" class="form-control" id="student-sex" name="student-sex">
                             <label for="recipient-name" class="col-form-label">Birthday:</label>
-                            <input type="text" class="form-control" id="student-birthday">
+                            <input type="text" class="form-control" id="student-birthday" name="student-birthday">
                             <label for="recipient-name" class="col-form-label">Address:</label>
-                            <input type="text" class="form-control" id="student-address">
+                            <input type="text" class="form-control" id="student-address" name="student-address">
                             <label for="recipient-name" class="col-form-label">Contact number:</label>
-                            <input type="text" class="form-control" id="student-number">
+                            <input type="text" class="form-control" id="student-number" name="student-number">
                             <label for="recipient-name" class="col-form-label">E-mail address:</label>
-                            <input type="text" class="form-control" id="student-email">
+                            <input type="text" class="form-control" id="student-email" name="student-email">
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                                 <button type="submit" class="btn button-bg">Add</button>
