@@ -85,9 +85,9 @@ class MySqlDataProvider {
     }
 
     //add new record to database
-    public function add_student_profile($id, $fname, $mname, $lname, $suffix, $section, $sex, $bday, $address, $contact, $email){
+    public function add_student_profile($id, $fname, $mname, $lname, $suffix, $sex, $section, $bday, $address, $contact, $email){
         $this->non_query(
-            'INSERT INTO tbl_student_profile VALUES (:id, :fname, :mname, :lname, :suffix, :section, :sex, :bday, :address, :contact, :email)',
+            'INSERT INTO tbl_student_profile VALUES (:id, :fname, :mname, :lname, :suffix, :sex, :section, :bday, :address, :contact, :email)',
             [
                 ':id' => $id,
                 ':fname' => $fname,
@@ -119,12 +119,10 @@ class MySqlDataProvider {
 
     private function connect() {
         try {
-            $message = "Database connected.";
-            echo "<script type='text/javascript'>alert('$message');</script>";
+            
             return new PDO($this->source, CONFIG['db_user'], CONFIG['db_password']);
         } catch (PDOException $e) {
-            $message = "No connected database.";
-            echo "<script type='text/javascript'>alert('$message');</script>";
+            
             return null;
         }
     }
