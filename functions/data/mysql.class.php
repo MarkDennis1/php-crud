@@ -84,9 +84,24 @@ class MySqlDataProvider {
 
     }
 
-    //add new term
-    public function add_student_profile($id, $definition){
-
+    //add new record to database
+    public function add_student_profile($id, $fname, $mname, $lname, $suffix, $section, $sex, $bday, $address, $contact, $email){
+        $this->non_query(
+            'INSERT INTO tbl_student_profile VALUES (:id, :fname, :mname, :lname, :suffix, :section, :sex, :bday, :address, :contact, :email)',
+            [
+                ':id' => $id,
+                ':fname' => $fname,
+                ':mname' => $mname,
+                ':lname' => $lname,
+                ':suffix' => $suffix,
+                ':section' => $section,
+                ':sex' => $sex,
+                ':bday' => $bday,
+                ':address' => $address,
+                ':contact' => $contact,
+                ':email' => $email
+            ]
+        );
     }
 
     //update selected term
