@@ -28,8 +28,8 @@ class Data {
     }
 
     //add new record
-    static public function add_student_profile($id, $fname, $mname, $lname, $suffix, $section, $sex, $bday, $address, $contact, $email){
-        return self::$mdp->add_student_profile($id, $fname, $mname, $lname, $suffix, $section, $sex, $bday, $address, $contact, $email);
+    static public function add_student_profile($id, $fname, $mname, $lname, $suffix, $sex, $section, $bday, $address, $contact, $email){
+        return self::$mdp->add_student_profile($id, $fname, $mname, $lname, $suffix, $sex, $section, $bday, $address, $contact, $email);
     }
 
     //update selected record
