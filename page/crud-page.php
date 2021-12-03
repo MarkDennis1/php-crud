@@ -5,7 +5,7 @@
 
 <!-- body -->
 <div class="container-fluid container-table">
-    <table class="table table-hover text-center align-middle">
+    <table class="table table-hover text-center align-middle" id="table">
         <thead>
             <tr>
                 <th scope="col" id="id">Student ID</th>
@@ -23,6 +23,7 @@
             </tr>
         </thead>
         <tbody>
+       
             <?php foreach ($contents as $object) : ?>
                 <tr>
                     <td><?= $object->Student_ID ?></td>
@@ -37,7 +38,7 @@
                     <td><?= $object->Student_Contact_Number ?></td>
                     <td><?= $object->Student_Email_Address ?></td>
                     <td>
-                        <a class="btn button-edit-bg" type="submit" method="get" data-bs-toggle="modal" data-bs-target="#showEditModal">
+                        <a class="btn button-edit-bg" type="submit" data-bs-toggle="modal" data-bs-target="#showEditModal">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 172 172" style=" fill:#000000;">
                                 <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
                                     <path d="M0,172v-172h172v172z" fill="none"></path>
@@ -74,40 +75,62 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form>
+                <form method = "post">
                     <div class="mb-3">
-                        <label for="recipient-name" class="col-form-label">Student ID:</label>
-                        <input type="text" class="form-control" id="student-id">
-                        <label for="recipient-name" class="col-form-label">First name:</label>
-                        <input type="text" class="form-control" id="student-fname">
-                        <label for="recipient-name" class="col-form-label">Middle Name:</label>
-                        <input type="text" class="form-control" id="student-mname">
-                        <label for="recipient-name" class="col-form-label">Last name:</label>
-                        <input type="text" class="form-control" id="student-lname">
-                        <label for="recipient-name" class="col-form-label">Suffix:</label>
-                        <input type="text" class="form-control" id="student-suffix">
-                        <label for="recipient-name" class="col-form-label">Section:</label>
-                        <input type="text" class="form-control" id="student-section">
-                        <label for="recipient-name" class="col-form-label">Sex:</label>
-                        <input type="text" class="form-control" id="student-sex">
-                        <label for="recipient-name" class="col-form-label">Birthday:</label>
-                        <input type="text" class="form-control" id="student-birthday">
-                        <label for="recipient-name" class="col-form-label">Address:</label>
-                        <input type="text" class="form-control" id="student-address">
-                        <label for="recipient-name" class="col-form-label">Contact number:</label>
-                        <input type="text" class="form-control" id="student-number">
-                        <label for="recipient-name" class="col-form-label">E-mail address:</label>
-                        <input type="text" class="form-control" id="student-email">
+                        <label for="student-id" class="col-form-label">Student ID:</label>
+                        <input type="text" class="form-control" id="student-id" name="student-id">
+                        <label for="student-fname" class="col-form-label">First name:</label>
+                        <input type="text" class="form-control" id="student-fname" name="student-fname">
+                        <label for="student-mname" class="col-form-label">Middle Name:</label>
+                        <input type="text" class="form-control" id="student-mname" name="student-mname">
+                        <label for="student-lname" class="col-form-label">Last name:</label>
+                        <input type="text" class="form-control" id="student-lname" name="student-lname">
+                        <label for="student-suffix" class="col-form-label">Suffix:</label>
+                        <input type="text" class="form-control" id="student-suffix" name="student-suffix">
+                        <label for="student-section" class="col-form-label">Section:</label>
+                        <input type="text" class="form-control" id="student-section" name="student-section">
+                        <label for="student-sex" class="col-form-label">Sex:</label>
+                        <input type="text" class="form-control" id="student-sex" name="student-sex">
+                        <label for="student-birthday" class="col-form-label">Birthday:</label>
+                        <input type="date" class="form-control" id="student-birthday" name="student-birthday">
+                        <label for="student-address" class="col-form-label">Address:</label>
+                        <input type="text" class="form-control" id="student-address" name="student-address">
+                        <label for="student-number" class="col-form-label">Contact number:</label>
+                        <input type="text" class="form-control" id="student-number" name="student-number">
+                        <label for="student-email" class="col-form-label">E-mail address:</label>
+                        <input type="text" class="form-control" id="student-email" name="student-email">
                     </div>
                 </form>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                <button type="button" class="btn button-bg">Save</button>
+                <button type="button" class="btn button-bg" method="post" name="btnUpdateStudent">Save</button>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    var table = document.getElementById("table")
+
+    for (var i = 1; i < table.rows.length; i++) {
+
+        table.rows[i].onclick = function() {
+            
+            document.getElementById("student-id").value = this.cells[0].innerHTML;
+            document.getElementById("student-fname").value = this.cells[1].innerHTML;
+            document.getElementById("student-mname").value = this.cells[2].innerHTML;
+            document.getElementById("student-lname").value = this.cells[3].innerHTML;
+            document.getElementById("student-suffix").value = this.cells[4].innerHTML;
+            document.getElementById("student-sex").value = this.cells[5].innerHTML;
+            document.getElementById("student-section").value = this.cells[6].innerHTML;
+            document.getElementById("student-birthday").value = this.cells[7].innerHTML;
+            document.getElementById("student-address").value = this.cells[8].innerHTML;
+            document.getElementById("student-number").value = this.cells[9].innerHTML;
+            document.getElementById("student-email").value = this.cells[10].innerHTML;
+        };
+    }
+</script>
 
 <!-- Modal for delete confirmation -->
 <div class="modal fade" id="showDeleteModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
