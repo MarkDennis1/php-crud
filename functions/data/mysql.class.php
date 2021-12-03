@@ -105,8 +105,25 @@ class MySqlDataProvider {
     }
 
     //update selected term
-    public function update_student_profile($id, $new_term, $definition){
-
+    public function update_student_profile($id, $fname, $mname, $lname, $suffix, $sex, $section, $bday, $address, $contact, $email){
+        $this->non_query(
+            'UPDATE tbl_student_profile SET Student_ID = :id, Student_First_Name = :fname, Student_Middle_Name = :mname, Student_Last_Name = :lname,
+            Student_Suffix = :suffix, Student_Sex = :sex, Student_Section = :section, Student_Birthday = :bday, Student_Address = :address,
+            Student_Contact_Number = :contact, Student_Email_Address = :email',
+            [
+                ':id' => $id,
+                ':fname' => $fname,
+                ':mname' => $mname,
+                ':lname' => $lname,
+                ':suffix' => $suffix,
+                ':sex' => $sex,
+                ':section' => $section,
+                ':bday' => $bday,
+                ':address' => $address,
+                ':contact' => $contact,
+                ':email' => $email,
+            ]
+        );
     }
 
     //delete selected term
