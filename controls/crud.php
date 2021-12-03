@@ -39,8 +39,22 @@ if (is_post()) {
         Data::add_student_profile($_POST['student-id'], $_POST['student-fname'], $_POST['student-mname'], $_POST['student-lname'], 
         $_POST['student-suffix'], $_POST['student-sex'], $_POST['student-section'], $_POST['student-birthday'], $_POST['student-address'],
         $_POST['student-number'], $_POST['student-email']);
+
+        $records = Data::get_student_records();
     }
+
+    if (isset($_POST['btnUpdateStudent'])) {
+        
+        Data::update_student_profile($_POST['student-id'], $_POST['student-fname'], $_POST['student-mname'], $_POST['student-lname'], 
+        $_POST['student-suffix'], $_POST['student-sex'], $_POST['student-section'], $_POST['student-birthday'], $_POST['student-address'],
+        $_POST['student-number'], $_POST['student-email']);
+    
+        $records = Data::get_student_records();
+    }
+
 }
+
+
 
 view('crud', $records);
 
@@ -56,3 +70,4 @@ view('crud', $records);
         echo "<script type='text/javascript'>alert('$message');</script>";
         return null;
     }
+
