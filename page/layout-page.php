@@ -72,7 +72,7 @@
                             <label for="student-suffix" class="col-form-label">Suffix:</label>
                             <input type="text" class="form-control" id="student-suffix" name="student-suffix" maxlength="10">
                             <label for="student-section" class="col-form-label">Section:</label>
-                            <input type="text" class="form-control" id="student-section" name="student-section" maxlength="10">
+                            <input type="text" class="form-control" id="student-section" name="student-section" maxlength="50">
                             <label for="student-sex" class="col-form-label">Sex:</label>
                             <input type="text" class="form-control" id="student-sex" name="student-sex">
                             <label for="student-birthday" class="col-form-label">Birthday:</label>
