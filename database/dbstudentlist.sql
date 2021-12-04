@@ -2,7 +2,7 @@ CREATE SCHEMA dbstudentlist;
 USE dbstudentlist;
 
 CREATE TABLE `tbl_student_profile` (
-  `Student_ID` varchar(10) NOT NULL,
+  `Student_ID` varchar(10) NOT NULL PRIMARY KEY,
   `Student_First_Name` varchar(50) NOT NULL,
   `Student_Middle_Name` varchar(50),
   `Student_Last_Name` varchar(50) NOT NULL,
