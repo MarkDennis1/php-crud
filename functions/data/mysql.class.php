@@ -15,7 +15,7 @@ class MySqlDataProvider {
             return[];
         }
 
-        $smt = $pdo->query("SELECT * FROM tbl_student_profile ORDER BY $sort WHERE is_archive = false");
+        $smt = $pdo->query("SELECT * FROM tbl_student_profile WHERE is_archive = false ORDER BY $sort");
 
         $data = $smt->fetchAll(PDO::FETCH_CLASS, 'StudentProfile');
 
@@ -61,7 +61,7 @@ class MySqlDataProvider {
 
         $smt = null;
         
-        $smt = $pdo->prepare('SELECT * FROM tbl_student_profile WHERE CONCAT(Student_ID, Student_First_Name, Student_Last_Name) LIKE :search AND WHERE is_archive = false');
+        $smt = $pdo->prepare('SELECT * FROM tbl_student_profile WHERE CONCAT(Student_ID, Student_First_Name, Student_Last_Name) LIKE :search AND is_archive = false');
 
         $smt->execute([':search' => '%'.$search.'%']);
     
