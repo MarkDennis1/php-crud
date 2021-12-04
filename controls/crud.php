@@ -61,10 +61,6 @@ view('crud', $records);
 
     try {
         $pdo = new PDO(CONFIG['db'], CONFIG['db_user'], CONFIG['db_password']);
-        if ($pdo !== null) {
-            $message = "Database connected.";
-            echo "<script type='text/javascript'>alert('$message');</script>";
-        }
     } catch (PDOException $e) {
         $message = "No connected database.";
         echo "<script type='text/javascript'>alert('$message');</script>";

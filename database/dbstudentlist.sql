@@ -15,5 +15,3 @@ CREATE TABLE `tbl_student_profile` (
   `Student_Email_Address` varchar(50) NOT NULL,
   `is_archive` boolean NOT NULL DEFAULT false
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
-
