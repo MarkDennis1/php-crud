@@ -15,7 +15,7 @@ class MySqlDataProvider {
             return[];
         }
 
-        $smt = $pdo->query("SELECT * FROM tbl_student_profile ORDER BY $sort");
+        $smt = $pdo->query("SELECT * FROM tbl_student_profile ORDER BY $sort WHERE is_archive = false");
 
         $data = $smt->fetchAll(PDO::FETCH_CLASS, 'StudentProfile');
 
@@ -37,7 +37,7 @@ class MySqlDataProvider {
             return[];
         }
 
-        $smt = $pdo->query('SELECT * FROM tbl_student_profile');
+        $smt = $pdo->query('SELECT * FROM tbl_student_profile WHERE is_archive = false');
 
         $data = $smt->fetchAll(PDO::FETCH_CLASS, 'StudentProfile');
 
@@ -61,7 +61,7 @@ class MySqlDataProvider {
 
         $smt = null;
         
-        $smt = $pdo->prepare('SELECT * FROM tbl_student_profile WHERE CONCAT(Student_ID, Student_First_Name, Student_Last_Name) LIKE :search');
+        $smt = $pdo->prepare('SELECT * FROM tbl_student_profile WHERE CONCAT(Student_ID, Student_First_Name, Student_Last_Name) LIKE :search AND WHERE is_archive = false');
 
         $smt->execute([':search' => '%'.$search.'%']);
     
@@ -129,7 +129,7 @@ class MySqlDataProvider {
     //delete selected term
     public function delete_student_profile($id){
         $this->non_query(
-            'DELETE FROM tbl_student_profile WHERE Student_ID = :id',
+            'UPDATE tbl_student_profile SET is_archive = true WHERE Student_ID = :id',
             [':id' => $id]
         );
     }
