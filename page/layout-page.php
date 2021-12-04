@@ -16,31 +16,6 @@
 
 <body>
     <!-- navbar -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark navbar-bg fixed-nav-bar">
-        <div class="container-xl">
-            <a class="navbar-brand" href="../index.php">Home</a>
-
-            <div class="collapse navbar-collapse d-flex flex-row-reverse">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Sort student</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
-                            <li><a class="dropdown-item" href="?sort=Student_ID">Student ID</a></li>
-                            <li><a class="dropdown-item" href="?sort=Student_First_Name">First name</a></li>
-                            <li><a class="dropdown-item" href="?sort=Student_Last_Name">Last name</a></li>
-                            <li><a class="dropdown-item" href="?sort=Student_Sex">Sex</a></li>
-                            <li><a class="dropdown-item" href="?sort=Student_Birthday">Birthday</a></li>
-                            <li><a class="dropdown-item" href="?sort=Student_Address">Address</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form method="get">
-                    <input class="form-control" type="text" name="search" placeholder="Search" aria-label="Search">
-                </form>
-            </div>
-        </div>
-    </nav> -->
-
     <nav class="navbar navbar-expand-lg navbar-light navbar-bg fixed-nav-bar">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.php">Home</a>
@@ -64,7 +39,7 @@
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" name="search" placeholder="Search" aria-label="Search">
-                    <button class="btn button-search-bg" type="submit">Search</button>
+                    <button class="btn button-bg" type="submit">Search</button>
                 </form>
             </div>
         </div>
@@ -87,25 +62,25 @@
                     <form method="post">
                         <div class="mb-3">
                             <label for="student-id" class="col-form-label">Student ID:</label>
-                            <input type="text" class="form-control" id="student-id" name="student-id">
+                            <input type="text" class="form-control" id="student-id" name="student-id" minlength="10" maxlength="10">
                             <label for="student-fname" class="col-form-label">First name:</label>
-                            <input type="text" class="form-control" id="student-fname" name="student-fname">
+                            <input type="text" class="form-control" id="student-fname" name="student-fname" maxlength="50">
                             <label for="student-mname" class="col-form-label">Middle Name:</label>
-                            <input type="text" class="form-control" id="student-mname" name="student-mname">
+                            <input type="text" class="form-control" id="student-mname" name="student-mname" maxlength="50">
                             <label for="student-lname" class="col-form-label">Last name:</label>
-                            <input type="text" class="form-control" id="student-lname" name="student-lname">
+                            <input type="text" class="form-control" id="student-lname" name="student-lname" maxlength="50">
                             <label for="student-suffix" class="col-form-label">Suffix:</label>
-                            <input type="text" class="form-control" id="student-suffix" name="student-suffix">
+                            <input type="text" class="form-control" id="student-suffix" name="student-suffix" maxlength="10">
                             <label for="student-section" class="col-form-label">Section:</label>
-                            <input type="text" class="form-control" id="student-section" name="student-section">
+                            <input type="text" class="form-control" id="student-section" name="student-section" maxlength="10">
                             <label for="student-sex" class="col-form-label">Sex:</label>
                             <input type="text" class="form-control" id="student-sex" name="student-sex">
                             <label for="student-birthday" class="col-form-label">Birthday:</label>
                             <input type="date" class="form-control" id="student-birthday" name="student-birthday">
                             <label for="student-address" class="col-form-label">Address:</label>
-                            <input type="text" class="form-control" id="student-address" name="student-address">
+                            <input type="text" class="form-control" id="student-address" name="student-address" maxlength="100">
                             <label for="student-number" class="col-form-label">Contact number:</label>
-                            <input type="text" class="form-control" id="student-number" name="student-number">
+                            <input type="text" class="form-control" id="student-number" name="student-number" maxlength="11">
                             <label for="student-email" class="col-form-label">E-mail address:</label>
                             <input type="text" class="form-control" id="student-email" name="student-email">
                             <div class="modal-footer">

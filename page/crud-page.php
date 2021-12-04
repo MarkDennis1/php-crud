@@ -78,25 +78,25 @@
                 <form method = "post">
                     <div class="mb-3">
                         <label for="student-id" class="col-form-label">Student ID:</label>
-                        <input type="text" class="form-control" id="student-id" name="student-id">
+                        <input type="text" class="form-control" id="student-id" name="student-id" minlength="10" maxlength="10">
                         <label for="student-fname" class="col-form-label">First name:</label>
-                        <input type="text" class="form-control" id="student-fname" name="student-fname">
+                        <input type="text" class="form-control" id="student-fname" name="student-fname" maxlength="50">
                         <label for="student-mname" class="col-form-label">Middle Name:</label>
-                        <input type="text" class="form-control" id="student-mname" name="student-mname">
+                        <input type="text" class="form-control" id="student-mname" name="student-mname" maxlength="50">
                         <label for="student-lname" class="col-form-label">Last name:</label>
-                        <input type="text" class="form-control" id="student-lname" name="student-lname">
+                        <input type="text" class="form-control" id="student-lname" name="student-lname" maxlength="50">
                         <label for="student-suffix" class="col-form-label">Suffix:</label>
-                        <input type="text" class="form-control" id="student-suffix" name="student-suffix">
+                        <input type="text" class="form-control" id="student-suffix" name="student-suffix" maxlength="10">
                         <label for="student-section" class="col-form-label">Section:</label>
-                        <input type="text" class="form-control" id="student-section" name="student-section">
+                        <input type="text" class="form-control" id="student-section" name="student-section" maxlength="10">
                         <label for="student-sex" class="col-form-label">Sex:</label>
                         <input type="text" class="form-control" id="student-sex" name="student-sex">
                         <label for="student-birthday" class="col-form-label">Birthday:</label>
                         <input type="date" class="form-control" id="student-birthday" name="student-birthday">
                         <label for="student-address" class="col-form-label">Address:</label>
-                        <input type="text" class="form-control" id="student-address" name="student-address">
+                        <input type="text" class="form-control" id="student-address" name="student-address" maxlength="100">
                         <label for="student-number" class="col-form-label">Contact number:</label>
-                        <input type="text" class="form-control" id="student-number" name="student-number">
+                        <input type="text" class="form-control" id="student-number" name="student-number" maxlength="11">
                         <label for="student-email" class="col-form-label">E-mail address:</label>
                         <input type="text" class="form-control" id="student-email" name="student-email">
                     </div>
@@ -136,7 +136,7 @@
 <div class="modal fade" id="showDeleteModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header header-bg">
                 <h5 class="modal-title" id="staticBackdropLabel">Delete student record</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
@@ -146,7 +146,7 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                 <a href="?delete=<?= $object->Student_ID ?>" type="submit" name="delete" method="get">
-                    <button type="button" class="btn btn-primary">Delete</button>
+                    <button type="button" class="btn button-bg">Delete</button>
                 </a>
             </div>
         </div>
