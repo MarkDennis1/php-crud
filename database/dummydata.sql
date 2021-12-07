@@ -13,6 +13,8 @@ INSERT INTO `tbl_student_profile` (`Student_ID`, `Student_First_Name`, `Student_
 ('1011900785', 'Jamie', 'Miranda', 'Zonio', 'Female', 'BSIT 3-1', '2000-09-08', 'Angono, Rizal', '09511547912', 'jamiezonio0909@gmail.com', false);
 INSERT INTO `tbl_student_profile` (`Student_ID`, `Student_First_Name`, `Student_Middle_Name`, `Student_Last_Name`, `Student_Sex`, `Student_Section`, `Student_Birthday`, `Student_Address`, `Student_Contact_Number`, `Student_Email_Address`, `is_archive`) VALUES
 ('1011900187', 'Vina Mae', 'Vina', 'Nueva', 'Female', 'BSIT 3-1', '2001-01-20', 'Angono, Rizal', '09359489060', 'vnamnueva@gmail.com', false);
+INSERT INTO `tbl_student_profile` (`Student_ID`, `Student_First_Name`, `Student_Middle_Name`, `Student_Last_Name`, `Student_Sex`, `Student_Section`, `Student_Birthday`, `Student_Address`, `Student_Contact_Number`, `Student_Email_Address`, `is_archive`) VALUES
+('1011900168', 'Karla Eunice', 'Co', 'Esquillo', 'Female', 'BSIT 3-1', '2000-04-12', 'Cainta, Rizal', '09359489060', 'karlaesquillo05@gmail.com', false);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
 ('5180659574', 'Pearl', 'Kondratovich', 'Thorburn', null, 'Male', 'Nuclear Power Engineer', '2010-05-03', '989 Washington Street', '2488701040', 'pthorburn0@mlb.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
