@@ -1,5 +1,8 @@
 <?php
 
+
+//NOTE: creating this static class is optional
+//WHY: creating a static class makes it easier for calling methods from another none static class
 class Data {
 
     static private $mdp;
