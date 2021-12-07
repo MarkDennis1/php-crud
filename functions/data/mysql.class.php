@@ -4,10 +4,12 @@ require('studentprofile.class.php');
 
 class MySqlDataProvider {
 
+    //Class parameter
     public function __construct($source) {
         $this->source = $source;
     }
 
+    //Sort records 
     public function sort_by($sort) {
         $pdo = $this->connect();
 
@@ -29,7 +31,7 @@ class MySqlDataProvider {
         return $data;
     }
 
-    //decode data.json
+    //Display all the records from database
     public function get_student_records(){
         $pdo = $this->connect();
 
@@ -51,7 +53,7 @@ class MySqlDataProvider {
         return $data;
     }
 
-    //search objects from data.json
+    //search records based on user input
     public function search_student_records($search){
         $pdo = $this->connect();
 
@@ -79,11 +81,6 @@ class MySqlDataProvider {
     
     }
 
-    //get the key 'term' from data.json
-    public function get_student_profile($id){
-
-    }
-
     //add new record to database
     public function add_student_profile($id, $fname, $mname, $lname, $suffix, $sex, $section, $bday, $address, $contact, $email){
         $this->non_query(
@@ -104,7 +101,7 @@ class MySqlDataProvider {
         );
     }
 
-    //update selected term
+    //update selected record
     public function update_student_profile($id, $fname, $mname, $lname, $suffix, $sex, $section, $bday, $address, $contact, $email){
         $this->non_query(
             'UPDATE tbl_student_profile SET Student_First_Name = :fname, Student_Middle_Name = :mname, Student_Last_Name = :lname,
@@ -126,7 +123,7 @@ class MySqlDataProvider {
         );
     }
 
-    //delete selected term
+    //archive selected record
     public function delete_student_profile($id){
         $this->non_query(
             'UPDATE tbl_student_profile SET is_archive = true WHERE Student_ID = :id',
@@ -144,7 +141,7 @@ class MySqlDataProvider {
         }
     }
 
-    //mysql non-query method
+    //mysql non-query method for add, update and delete
     private function non_query($sql, $sql_param) {
         $pdo = $this->connect();
 

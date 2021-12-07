@@ -24,6 +24,8 @@
         </thead>
         <tbody>
        
+            <!-- Display StudentProfile class properties-->
+            <!-- functions/data/studentprofile.class.php-->
             <?php foreach ($contents as $object) : ?>
                 <tr>
                     <td><?= $object->Student_ID ?></td>
@@ -111,6 +113,7 @@
     </div>
 </div>
 
+<!-- populate textbox -->
 <script>
     var table = document.getElementById("table")
 

@@ -1,22 +1,23 @@
 <?php
 
+//navigate webpages
 function redirect($url){
     header("Location: $url");
     die();
 }
 
-//function that will view page
+//navigate subpages
 function view($name, $contents = ''){
     global $view_bag;
     require(APP_PATH . "page/layout-page.php");
 }
 
-//check if input is post
+//check if request is post
 function is_post(){
     return $_SERVER['REQUEST_METHOD'] === 'POST';
 }
 
-//check if input is get
+//check if request is get
 function is_get(){
     return $_SERVER['REQUEST_METHOD'] === 'GET';
 }

@@ -6,4 +6,6 @@ require('functions.php');
 require('data/mysql.class.php');
 require('data/static.class.php');
 
+//Initialize init function
+//functions/data/static.class.php
 Data::init(new MySqlDataProvider(CONFIG['db']));
