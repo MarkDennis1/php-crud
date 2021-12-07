@@ -84,7 +84,7 @@ class MySqlDataProvider {
     //add new record to database
     public function add_student_profile($id, $fname, $mname, $lname, $suffix, $sex, $section, $bday, $address, $contact, $email){
         $this->non_query(
-            'INSERT INTO tbl_student_profile VALUES (:id, :fname, :mname, :lname, :suffix, :sex, :section, :bday, :address, :contact, :email)',
+            'INSERT INTO tbl_student_profile VALUES (:id, :fname, :mname, :lname, :suffix, :sex, :section, :bday, :address, :contact, :email, is_archive = true)',
             [
                 ':id' => $id,
                 ':fname' => $fname,
@@ -125,6 +125,8 @@ class MySqlDataProvider {
 
     //archive selected record
     public function delete_student_profile($id){
+
+        echo "ksdjhfolsdjflsdjlfjsldfjsdlfjlsdflsldjflsfljs";
         $this->non_query(
             'UPDATE tbl_student_profile SET is_archive = true WHERE Student_ID = :id',
             [':id' => $id]
