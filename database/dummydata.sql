@@ -32,9 +32,9 @@ insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
 ('6412072829', 'Opal', 'Iacopetti', 'Pochin', null, 'Female', 'BSIT 3-1', '2018-08-19', '1 Fordem Point', '4103013129', 'opochin7@baidu.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('2156888744', 'Guinna', 'Whytock', 'Pelos', null, 'Male', 'Budget/Accounting Analyst II', '1997-01-04', '98675 Warbler Street', '8421361758', 'gpelos8@biglobe.ne.jp', 1);
+('2156888744', 'Guinna', 'Whytock', 'Pelos', null, 'Male', 'BSIT 3-1', '1997-01-04', '98675 Warbler Street', '8421361758', 'gpelos8@biglobe.ne.jp', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('4285209276', 'Devlin', 'Pownall', 'Ashwood', null, 'Male', 'Electrical Engineer', '2002-01-13', '1900 Jenifer Trail', '8532276160', 'dashwood9@mtv.com', 0);
+('4285209276', 'Devlin', 'Pownall', 'Ashwood', null, 'Male', 'BSIT 3-1', '2002-01-13', '1900 Jenifer Trail', '8532276160', 'dashwood9@mtv.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
 ('1299667643', 'Bram', 'Wilshin', 'Frigout', null, 'Male', 'BSIT 3-1', '2012-12-23', '162 Bunting Court', '5974266454', 'bfrigouta@abc.net.au', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
