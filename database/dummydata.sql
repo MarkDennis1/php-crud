@@ -16,202 +16,202 @@ INSERT INTO `tbl_student_profile` (`Student_ID`, `Student_First_Name`, `Student_
 INSERT INTO `tbl_student_profile` (`Student_ID`, `Student_First_Name`, `Student_Middle_Name`, `Student_Last_Name`, `Student_Sex`, `Student_Section`, `Student_Birthday`, `Student_Address`, `Student_Contact_Number`, `Student_Email_Address`, `is_archive`) VALUES
 ('1011900168', 'Karla Eunice', 'Co', 'Esquillo', 'Female', 'BSIT 3-1', '2000-04-12', 'Cainta, Rizal', '09071956520', 'karlaesquillo05@gmail.com', false);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('5180659574', 'Pearl', 'Kondratovich', 'Thorburn', null, 'Male', 'Nuclear Power Engineer', '2010-05-03', '989 Washington Street', '2488701040', 'pthorburn0@mlb.com', 1);
+('5180659574', 'Pearl', 'Kondratovich', 'Thorburn', null, 'Male', 'BSIT 3-1', '2010-05-03', '989 Washington Street', '2488701040', 'pthorburn0@mlb.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('7221823243', 'Catherin', 'Hearnah', 'Matuschek', null, 'Male', 'Technical Writer', '2005-02-09', '59 Annamark Hill', '1715271078', 'cmatuschek1@ca.gov', 1);
+('7221823243', 'Catherin', 'Hearnah', 'Matuschek', null, 'Male', 'BSIT 3-1', '2005-02-09', '59 Annamark Hill', '1715271078', 'cmatuschek1@ca.gov', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('4862301169', 'Care', 'Scupham', 'Radsdale', null, 'Male', 'Help Desk Operator', '2020-07-12', '2 Rowland Way', '7344980297', 'cradsdale2@wikipedia.org', 1);
+('4862301169', 'Care', 'Scupham', 'Radsdale', null, 'Male', 'BSIT 3-1', '2020-07-12', '2 Rowland Way', '7344980297', 'cradsdale2@wikipedia.org', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('8327262068', 'Grannie', 'Buckenham', 'Habbema', null, 'Male', 'Financial Analyst', '2002-02-04', '0519 Meadow Valley Way', '4165940406', 'ghabbema3@plala.or.jp', 0);
+('8327262068', 'Grannie', 'Buckenham', 'Habbema', null, 'Male', 'BSIT 3-1', '2002-02-04', '0519 Meadow Valley Way', '4165940406', 'ghabbema3@plala.or.jp', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('2081461536', 'Judah', 'Safont', 'Blackaller', null, 'Female', 'General Manager', '2013-12-29', '453 Jenna Hill', '3259038109', 'jblackaller4@google.com.au', 0);
+('2081461536', 'Judah', 'Safont', 'Blackaller', null, 'Female', 'BSIT 3-1', '2013-12-29', '453 Jenna Hill', '3259038109', 'jblackaller4@google.com.au', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('6790361766', 'Nikolia', 'Rappport', 'Hartnup', null, 'Female', 'Software Test Engineer I', '2016-05-30', '3 Mendota Plaza', '9948468624', 'nhartnup5@histats.com', 0);
+('6790361766', 'Nikolia', 'Rappport', 'Hartnup', null, 'Female', 'BSIT 3-1', '2016-05-30', '3 Mendota Plaza', '9948468624', 'nhartnup5@histats.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('9856154626', 'Chucho', 'Forsdyke', 'Abbots', null, 'Female', 'Occupational Therapist', '2008-05-03', '7 Cody Alley', '4709268627', 'cabbots6@posterous.com', 1);
+('9856154626', 'Chucho', 'Forsdyke', 'Abbots', null, 'Female', 'BSIT 3-1', '2008-05-03', '7 Cody Alley', '4709268627', 'cabbots6@posterous.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('6412072829', 'Opal', 'Iacopetti', 'Pochin', null, 'Female', 'Accountant III', '2018-08-19', '1 Fordem Point', '4103013129', 'opochin7@baidu.com', 1);
+('6412072829', 'Opal', 'Iacopetti', 'Pochin', null, 'Female', 'BSIT 3-1', '2018-08-19', '1 Fordem Point', '4103013129', 'opochin7@baidu.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
 ('2156888744', 'Guinna', 'Whytock', 'Pelos', null, 'Male', 'Budget/Accounting Analyst II', '1997-01-04', '98675 Warbler Street', '8421361758', 'gpelos8@biglobe.ne.jp', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
 ('4285209276', 'Devlin', 'Pownall', 'Ashwood', null, 'Male', 'Electrical Engineer', '2002-01-13', '1900 Jenifer Trail', '8532276160', 'dashwood9@mtv.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('1299667643', 'Bram', 'Wilshin', 'Frigout', null, 'Male', 'Environmental Tech', '2012-12-23', '162 Bunting Court', '5974266454', 'bfrigouta@abc.net.au', 0);
+('1299667643', 'Bram', 'Wilshin', 'Frigout', null, 'Male', 'BSIT 3-1', '2012-12-23', '162 Bunting Court', '5974266454', 'bfrigouta@abc.net.au', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('4701985791', 'Emmie', 'Geydon', 'Mulqueen', 'Jr', 'Male', 'Associate Professor', '2017-02-11', '12 Hallows Center', '7398459189', 'emulqueenb@sina.com.cn', 1);
+('4701985791', 'Emmie', 'Geydon', 'Mulqueen', 'Jr', 'Male', 'BSIT 3-1', '2017-02-11', '12 Hallows Center', '7398459189', 'emulqueenb@sina.com.cn', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('8022399965', 'Francisca', 'Paule', 'Monte', null, 'Female', 'Design Engineer', '2013-12-27', '0625 Esch Parkway', '3085232479', 'fmontec@chicagotribune.com', 1);
+('8022399965', 'Francisca', 'Paule', 'Monte', null, 'Female', 'BSIT 3-1', '2013-12-27', '0625 Esch Parkway', '3085232479', 'fmontec@chicagotribune.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('9512858312', 'Aubry', 'Dudney', 'Power', null, 'Female', 'Design Engineer', '2010-09-26', '05657 Messerschmidt Point', '4074091514', 'apowerd@opera.com', 1);
+('9512858312', 'Aubry', 'Dudney', 'Power', null, 'Female', 'BSIT 3-1', '2010-09-26', '05657 Messerschmidt Point', '4074091514', 'apowerd@opera.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('9746176420', 'Nicholle', 'Wollers', 'Savaage', null, 'Female', 'Computer Systems Analyst I', '2020-11-01', '8122 Doe Crossing Avenue', '8852916053', 'nsavaagee@aol.com', 1);
+('9746176420', 'Nicholle', 'Wollers', 'Savaage', null, 'Female', 'BSIT 3-1', '2020-11-01', '8122 Doe Crossing Avenue', '8852916053', 'nsavaagee@aol.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('0960657940', 'Heall', 'Fitzmaurice', 'Tack', null, 'Male', 'Librarian', '2009-07-30', '7823 Memorial Terrace', '3855772857', 'htackf@mtv.com', 0);
+('0960657940', 'Heall', 'Fitzmaurice', 'Tack', null, 'Male', 'BSIT 3-1', '2009-07-30', '7823 Memorial Terrace', '3855772857', 'htackf@mtv.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('7183878988', 'Tucker', 'Bras', 'Cavell', null, 'Female', 'Research Associate', '1997-04-08', '270 Vidon Lane', '6872519218', 'tcavellg@360.cn', 0);
+('7183878988', 'Tucker', 'Bras', 'Cavell', null, 'Female', 'BSIT 3-1', '1997-04-08', '270 Vidon Lane', '6872519218', 'tcavellg@360.cn', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('5452421343', 'Coralie', 'Spridgeon', 'Bwy', null, 'Female', 'Financial Analyst', '2017-05-26', '7 Nova Junction', '2931069676', 'cbwyh@gov.uk', 1);
+('5452421343', 'Coralie', 'Spridgeon', 'Bwy', null, 'Female', 'BSIT 3-1', '2017-05-26', '7 Nova Junction', '2931069676', 'cbwyh@gov.uk', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('9813817364', 'Tybalt', 'Lamport', 'Depke', null, 'Female', 'Developer IV', '1999-07-08', '580 Park Meadow Terrace', '9041694054', 'tdepkei@upenn.edu', 1);
+('9813817364', 'Tybalt', 'Lamport', 'Depke', null, 'Female', 'BSIT 3-1', '1999-07-08', '580 Park Meadow Terrace', '9041694054', 'tdepkei@upenn.edu', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('5098662966', 'Karry', 'Gillion', 'Buckthorp', 'Sr', 'Female', 'Tax Accountant', '2000-09-05', '2670 Heath Park', '8619402392', 'kbuckthorpj@weibo.com', 0);
+('5098662966', 'Karry', 'Gillion', 'Buckthorp', 'Sr', 'Female', 'BSIT 3-1', '2000-09-05', '2670 Heath Park', '8619402392', 'kbuckthorpj@weibo.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('3504819049', 'Layton', 'Coote', 'Sugge', null, 'Female', 'Librarian', '1999-12-07', '16363 Fulton Center', '2425290488', 'lsuggek@yelp.com', 0);
+('3504819049', 'Layton', 'Coote', 'Sugge', null, 'Female', 'BSIT 3-1', '1999-12-07', '16363 Fulton Center', '2425290488', 'lsuggek@yelp.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('2628920166', 'Rustie', 'Ruggen', 'Lantuff', null, 'Female', 'Software Test Engineer IV', '2014-12-31', '9 Moland Trail', '9724971319', 'rlantuffl@mysql.com', 1);
+('2628920166', 'Rustie', 'Ruggen', 'Lantuff', null, 'Female', 'BSIT 3-1', '2014-12-31', '9 Moland Trail', '9724971319', 'rlantuffl@mysql.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('9484637086', 'Tobye', 'Shuttle', 'Purver', null, 'Female', 'Junior Executive', '2010-02-03', '7 Morning Pass', '4383915104', 'tpurverm@who.int', 1);
+('9484637086', 'Tobye', 'Shuttle', 'Purver', null, 'Female', 'BSIT 3-1', '2010-02-03', '7 Morning Pass', '4383915104', 'tpurverm@who.int', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('6859714514', 'Bronnie', 'Mawby', 'Youster', null, 'Female', 'Information Systems Manager', '2017-10-04', '38074 Washington Hill', '5094244479', 'byoustern@twitter.com', 0);
+('6859714514', 'Bronnie', 'Mawby', 'Youster', null, 'Female', 'BSIT 3-1', '2017-10-04', '38074 Washington Hill', '5094244479', 'byoustern@twitter.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('5917833915', 'Genvieve', 'Easson', 'Reboul', null, 'Male', 'General Manager', '2005-10-28', '492 Arrowood Trail', '9682855848', 'greboulo@independent.co.uk', 1);
+('5917833915', 'Genvieve', 'Easson', 'Reboul', null, 'Male', 'BSIT 3-1', '2005-10-28', '492 Arrowood Trail', '9682855848', 'greboulo@independent.co.uk', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('8025383105', 'Hans', 'Halbeard', 'Provest', null, 'Female', 'Design Engineer', '2012-11-18', '3 Swallow Parkway', '4146012472', 'hprovestp@woothemes.com', 1);
+('8025383105', 'Hans', 'Halbeard', 'Provest', null, 'Female', 'BSIT 3-1', '2012-11-18', '3 Swallow Parkway', '4146012472', 'hprovestp@woothemes.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('8901497409', 'Jacobo', 'Squibb', 'Tellesson', 'III', 'Female', 'Research Associate', '2012-09-25', '7687 Hovde Junction', '5736481583', 'jtellessonq@jalbum.net', 0);
+('8901497409', 'Jacobo', 'Squibb', 'Tellesson', 'III', 'Female', 'BSIT 3-1', '2012-09-25', '7687 Hovde Junction', '5736481583', 'jtellessonq@jalbum.net', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('3859916440', 'Helen-elizabeth', 'Dugald', 'Kiwitz', null, 'Male', 'Accountant III', '2021-10-08', '28203 Green Ridge Drive', '8359261247', 'hkiwitzr@acquirethisname.com', 1);
+('3859916440', 'Helen-elizabeth', 'Dugald', 'Kiwitz', null, 'Male', 'BSIT 3-1', '2021-10-08', '28203 Green Ridge Drive', '8359261247', 'hkiwitzr@acquirethisname.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('0533290104', 'Hieronymus', 'Mixter', 'Cattlow', null, 'Female', 'Social Worker', '2008-12-20', '328 Eggendart Street', '5364448279', 'hcattlows@geocities.com', 1);
+('0533290104', 'Hieronymus', 'Mixter', 'Cattlow', null, 'Female', 'BSIT 3-1', '2008-12-20', '328 Eggendart Street', '5364448279', 'hcattlows@geocities.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('8230065934', 'Bunni', 'Zecchii', 'Brozek', 'III', 'Female', 'Structural Engineer', '2007-11-15', '9282 Acker Avenue', '8829402902', 'bbrozekt@1688.com', 1);
+('8230065934', 'Bunni', 'Zecchii', 'Brozek', 'III', 'Female', 'BSIT 3-1', '2007-11-15', '9282 Acker Avenue', '8829402902', 'bbrozekt@1688.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('9472703968', 'Gerrie', 'Borzoni', 'Kirwin', null, 'Male', 'Programmer Analyst II', '2017-05-18', '01218 Logan Court', '9402193678', 'gkirwinu@webeden.co.uk', 0);
+('9472703968', 'Gerrie', 'Borzoni', 'Kirwin', null, 'Male', 'BSIT 3-1', '2017-05-18', '01218 Logan Court', '9402193678', 'gkirwinu@webeden.co.uk', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('2555385053', 'Marie-ann', 'Rydzynski', 'Heakins', null, 'Female', 'Developer I', '2001-07-06', '8 Ruskin Lane', '7873103669', 'mheakinsv@jalbum.net', 1);
+('2555385053', 'Marie-ann', 'Rydzynski', 'Heakins', null, 'Female', 'BSIT 3-1', '2001-07-06', '8 Ruskin Lane', '7873103669', 'mheakinsv@jalbum.net', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('5038338690', 'Alistair', 'Weeds', 'Coare', 'III', 'Female', 'Research Associate', '2005-05-11', '5427 East Road', '2437937680', 'acoarew@comcast.net', 1);
+('5038338690', 'Alistair', 'Weeds', 'Coare', 'III', 'Female', 'BSIT 3-1', '2005-05-11', '5427 East Road', '2437937680', 'acoarew@comcast.net', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('3975621079', 'Xena', 'Hacquoil', 'Devanny', null, 'Male', 'Director of Sales', '2007-05-02', '8 Lunder Circle', '5476431115', 'xdevannyx@mit.edu', 1);
+('3975621079', 'Xena', 'Hacquoil', 'Devanny', null, 'Male', 'BSIT 3-1', '2007-05-02', '8 Lunder Circle', '5476431115', 'xdevannyx@mit.edu', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('1486143075', 'Justinn', 'Cossor', 'Jinks', 'II', 'Female', 'Software Consultant', '2006-02-09', '3850 Lerdahl Park', '6034313986', 'jjinksy@i2i.jp', 1);
+('1486143075', 'Justinn', 'Cossor', 'Jinks', 'II', 'Female', 'BSIT 3-1', '2006-02-09', '3850 Lerdahl Park', '6034313986', 'jjinksy@i2i.jp', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('1724453165', 'Court', 'Leftly', 'Zmitrovich', 'Sr', 'Male', 'Food Chemist', '2021-07-17', '3833 Judy Lane', '3605304015', 'czmitrovichz@pagesperso-orange.fr', 1);
+('1724453165', 'Court', 'Leftly', 'Zmitrovich', 'Sr', 'Male', 'BSIT 3-1', '2021-07-17', '3833 Judy Lane', '3605304015', 'czmitrovichz@pagesperso-orange.fr', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('4370495644', 'Roana', 'Lejeune', 'Hemshall', null, 'Female', 'Recruiter', '1999-01-23', '48863 Fremont Center', '8788089948', 'rhemshall10@flavors.me', 0);
+('4370495644', 'Roana', 'Lejeune', 'Hemshall', null, 'Female', 'BSIT 3-1', '1999-01-23', '48863 Fremont Center', '8788089948', 'rhemshall10@flavors.me', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values
-('0600108309', 'Garwin', 'Slegg', 'Eickhoff', 'IV', 'Female', 'Editor', '1996-09-09', '3 Roth Trail', '3031092309', 'geickhoff11@marketwatch.com', 0);
+('0600108309', 'Garwin', 'Slegg', 'Eickhoff', 'IV', 'Female', 'BSIT 3-1', '1996-09-09', '3 Roth Trail', '3031092309', 'geickhoff11@marketwatch.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('6249267662', 'Juliette', 'Pendreigh', 'Burchfield', null, 'Male', 'Web Designer III', '2011-01-03', '99707 Forest Court', '4494167324', 'jburchfield12@columbia.edu', 1);
+('6249267662', 'Juliette', 'Pendreigh', 'Burchfield', null, 'Male', 'BSIT 3-1', '2011-01-03', '99707 Forest Court', '4494167324', 'jburchfield12@columbia.edu', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values
-('4427228682', 'Massimo', 'Jachimczak', 'Anniwell', null, 'Male', 'Geologist II', '2019-07-22', '07 Esch Park', '8649561982', 'manniwell13@mozilla.com', 1);
+('4427228682', 'Massimo', 'Jachimczak', 'Anniwell', null, 'Male', 'BSIT 3-1', '2019-07-22', '07 Esch Park', '8649561982', 'manniwell13@mozilla.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('2309696102', 'Basile', 'Heyburn', 'Whorlow', null, 'Male', 'Programmer Analyst III', '2009-06-04', '47296 Porter Parkway', '8993418276', 'bwhorlow14@indiegogo.com', 0);
+('2309696102', 'Basile', 'Heyburn', 'Whorlow', null, 'Male', 'BSIT 3-1', '2009-06-04', '47296 Porter Parkway', '8993418276', 'bwhorlow14@indiegogo.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('1391029143', 'Daveta', 'Torrie', 'Fippe', null, 'Male', 'Senior Quality Engineer', '2005-10-15', '2 Butterfield Pass', '3169010730', 'dfippe15@digg.com', 1);
+('1391029143', 'Daveta', 'Torrie', 'Fippe', null, 'Male', 'BSIT 3-1', '2005-10-15', '2 Butterfield Pass', '3169010730', 'dfippe15@digg.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('1002414083', 'Holly', 'Flemyng', 'Lansbury', 'III', 'Male', 'Environmental Specialist', '2008-12-13', '7 Laurel Trail', '8303039992', 'hlansbury16@geocities.com', 0);
+('1002414083', 'Holly', 'Flemyng', 'Lansbury', 'III', 'Male', 'BSIT 3-1', '2008-12-13', '7 Laurel Trail', '8303039992', 'hlansbury16@geocities.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values
-('8149989706', 'Almeda', 'Teliga', 'Lintin', null, 'Female', 'Librarian', '2016-07-20', '73757 Dorton Point', '7693377544', 'alintin17@symantec.com', 0);
+('8149989706', 'Almeda', 'Teliga', 'Lintin', null, 'Female', 'BSIT 3-1', '2016-07-20', '73757 Dorton Point', '7693377544', 'alintin17@symantec.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('9770255580', 'Aimil', 'Vile', 'Upshall', null, 'Male', 'Quality Control Specialist', '2019-11-04', '23 Sugar Alley', '9356100039', 'aupshall18@barnesandnoble.com', 0);
+('9770255580', 'Aimil', 'Vile', 'Upshall', null, 'Male', 'BSIT 3-1', '2019-11-04', '23 Sugar Alley', '9356100039', 'aupshall18@barnesandnoble.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('2805697979', 'Emmalynne', 'O''Hannay', 'Northridge', null, 'Female', 'Research Nurse', '2013-01-04', '31 Northridge Circle', '2549942494', 'enorthridge19@homestead.com', 0);
+('2805697979', 'Emmalynne', 'O''Hannay', 'Northridge', null, 'Female', 'BSIT 3-1', '2013-01-04', '31 Northridge Circle', '2549942494', 'enorthridge19@homestead.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('6743750220', 'Martica', 'Humerstone', 'Izakovitz', null, 'Male', 'Web Designer I', '2021-07-24', '3 Bluejay Plaza', '2131042007', 'mizakovitz1a@msu.edu', 1);
+('6743750220', 'Martica', 'Humerstone', 'Izakovitz', null, 'Male', 'BSIT 3-1', '2021-07-24', '3 Bluejay Plaza', '2131042007', 'mizakovitz1a@msu.edu', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('3066843076', 'Wynny', 'Van der Veldt', 'Kenright', 'II', 'Female', 'Automation Specialist II', '2016-06-03', '431 Dixon Trail', '7792284640', 'wkenright1b@de.vu', 0);
+('3066843076', 'Wynny', 'Van der Veldt', 'Kenright', 'II', 'Female', 'BSIT 3-1', '2016-06-03', '431 Dixon Trail', '7792284640', 'wkenright1b@de.vu', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('7837368533', 'Catharina', 'Dightham', 'Fancutt', 'IV', 'Male', 'Electrical Engineer', '2006-03-11', '40991 Cordelia Terrace', '5702756993', 'cfancutt1c@baidu.com', 0);
+('7837368533', 'Catharina', 'Dightham', 'Fancutt', 'IV', 'Male', 'BSIT 3-1', '2006-03-11', '40991 Cordelia Terrace', '5702756993', 'cfancutt1c@baidu.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values
-('7091771583', 'Rudolph', 'D''Alesco', 'Rableau', null, 'Female', 'VP Product Management', '2004-09-14', '844 Eastwood Court', '7106102243', 'rrableau1d@dailymotion.com', 1);
+('7091771583', 'Rudolph', 'D''Alesco', 'Rableau', null, 'Female', 'BSIT 3-1', '2004-09-14', '844 Eastwood Court', '7106102243', 'rrableau1d@dailymotion.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('5220971158', 'Egan', 'Zarfat', 'Mandre', null, 'Female', 'Speech Pathologist', '2011-11-10', '8 Dunning Road', '7504881438', 'emandre1e@hugedomains.com', 1);
+('5220971158', 'Egan', 'Zarfat', 'Mandre', null, 'Female', 'BSIT 3-1', '2011-11-10', '8 Dunning Road', '7504881438', 'emandre1e@hugedomains.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('2726669190', 'Sigismondo', 'McVie', 'Coope', null, 'Female', 'Paralegal', '2019-08-12', '0683 Shelley Court', '1545421490', 'scoope1f@usatoday.com', 1);
+('2726669190', 'Sigismondo', 'McVie', 'Coope', null, 'Female', 'BSIT 3-1', '2019-08-12', '0683 Shelley Court', '1545421490', 'scoope1f@usatoday.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('7575643958', 'Lilly', 'Lydford', 'Bolletti', null, 'Female', 'Assistant Media Planner', '1998-08-13', '302 Anniversary Alley', '4809040376', 'lbolletti1g@icq.com', 0);
+('7575643958', 'Lilly', 'Lydford', 'Bolletti', null, 'Female', 'BSIT 3-1', '1998-08-13', '302 Anniversary Alley', '4809040376', 'lbolletti1g@icq.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('7522540542', 'Alberik', 'Ketchen', 'Britten', 'II', 'Male', 'Budget/Accounting Analyst I', '2009-07-09', '8325 Mayer Way', '5767820077', 'abritten1h@indiatimes.com', 0);
+('7522540542', 'Alberik', 'Ketchen', 'Britten', 'II', 'Male', 'BSIT 3-1', '2009-07-09', '8325 Mayer Way', '5767820077', 'abritten1h@indiatimes.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('4477416334', 'Innis', 'Cuphus', 'Gloster', null, 'Female', 'Automation Specialist II', '2013-03-04', '6863 Fremont Place', '9386555309', 'igloster1i@sitemeter.com', 0);
+('4477416334', 'Innis', 'Cuphus', 'Gloster', null, 'Female', 'BSIT 3-1', '2013-03-04', '6863 Fremont Place', '9386555309', 'igloster1i@sitemeter.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('5979438343', 'Katina', 'Duley', 'Kenyon', null, 'Female', 'Analyst Programmer', '2013-10-18', '96784 Delaware Drive', '6853708395', 'kkenyon1j@shutterfly.com', 1);
+('5979438343', 'Katina', 'Duley', 'Kenyon', null, 'Female', 'BSIT 3-1', '2013-10-18', '96784 Delaware Drive', '6853708395', 'kkenyon1j@shutterfly.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values
-('2458558763', 'Evelin', 'Peace', 'Redan', null, 'Male', 'Associate Professor', '2009-06-18', '9 Summerview Center', '9653706732', 'eredan1k@prnewswire.com', 1);
+('2458558763', 'Evelin', 'Peace', 'Redan', null, 'Male', 'BSIT 3-1', '2009-06-18', '9 Summerview Center', '9653706732', 'eredan1k@prnewswire.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('1333649789', 'Leesa', 'Oehm', 'Filov', 'Sr', 'Female', 'Nurse', '2016-08-29', '920 Aberg Road', '5557372975', 'lfilov1l@mapquest.com', 1);
+('1333649789', 'Leesa', 'Oehm', 'Filov', 'Sr', 'Female', 'BSIT 3-1', '2016-08-29', '920 Aberg Road', '5557372975', 'lfilov1l@mapquest.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values
-('8487917623', 'Sheilah', 'Tuison', 'Rosen', 'Jr', 'Male', 'Media Manager IV', '2015-11-14', '4 Browning Drive', '9515016286', 'srosen1m@amazon.co.uk', 1);
+('8487917623', 'Sheilah', 'Tuison', 'Rosen', 'Jr', 'Male', 'BSIT 3-1', '2015-11-14', '4 Browning Drive', '9515016286', 'srosen1m@amazon.co.uk', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('9749279492', 'Tove', 'McRorie', 'Pomery', 'Sr', 'Male', 'Professor', '2004-10-31', '78026 Mayfield Street', '5579940845', 'tpomery1n@xinhuanet.com', 1);
+('9749279492', 'Tove', 'McRorie', 'Pomery', 'Sr', 'Male', 'BSIT 3-1', '2004-10-31', '78026 Mayfield Street', '5579940845', 'tpomery1n@xinhuanet.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('8336622659', 'Ody', 'MacHoste', 'MacAughtrie', null, 'Female', 'Human Resources Manager', '2007-07-17', '7234 Hudson Circle', '3389090424', 'omacaughtrie1o@barnesandnoble.com', 0);
+('8336622659', 'Ody', 'MacHoste', 'MacAughtrie', null, 'Female', 'BSIT 3-1', '2007-07-17', '7234 Hudson Circle', '3389090424', 'omacaughtrie1o@barnesandnoble.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values
-('8293471611', 'Myra', 'Ghidoli', 'Fladgate', null, 'Male', 'Nuclear Power Engineer', '2013-06-09', '84 Declaration Crossing', '4442112678', 'mfladgate1p@indiegogo.com', 1);
+('8293471611', 'Myra', 'Ghidoli', 'Fladgate', null, 'Male', 'BSIT 3-1', '2013-06-09', '84 Declaration Crossing', '4442112678', 'mfladgate1p@indiegogo.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values
-('9260421993', 'Elbert', 'Isted', 'Koubek', null, 'Female', 'Software Engineer II', '1996-09-30', '103 Charing Cross Lane', '7838808653', 'ekoubek1q@timesonline.co.uk', 1);
+('9260421993', 'Elbert', 'Isted', 'Koubek', null, 'Female', 'BSIT 3-1', '1996-09-30', '103 Charing Cross Lane', '7838808653', 'ekoubek1q@timesonline.co.uk', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('8791329299', 'Aldus', 'Joselin', 'Coryndon', null, 'Male', 'Payment Adjustment Coordinator', '1999-08-31', '52193 Northridge Court', '3926391081', 'acoryndon1r@mail.ru', 1);
+('8791329299', 'Aldus', 'Joselin', 'Coryndon', null, 'Male', 'BSIT 3-1', '1999-08-31', '52193 Northridge Court', '3926391081', 'acoryndon1r@mail.ru', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('4901974122', 'Nathanial', 'Capaldi', 'Kippen', 'II', 'Male', 'Community Outreach Specialist', '2016-12-16', '3 Vahlen Lane', '1711460511', 'nkippen1s@github.com', 1);
+('4901974122', 'Nathanial', 'Capaldi', 'Kippen', 'II', 'Male', 'BSIT 3-1', '2016-12-16', '3 Vahlen Lane', '1711460511', 'nkippen1s@github.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('1253955913', 'Virgie', 'Cruise', 'Hellcat', null, 'Female', 'Legal Assistant', '2013-02-28', '91601 Sherman Pass', '6174137587', 'vhellcat1t@aol.com', 0);
+('1253955913', 'Virgie', 'Cruise', 'Hellcat', null, 'Female', 'BSIT 3-1', '2013-02-28', '91601 Sherman Pass', '6174137587', 'vhellcat1t@aol.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('9287824649', 'Heall', 'Muff', 'Zanitti', null, 'Male', 'Geological Engineer', '2010-07-18', '10 Waywood Road', '8182486558', 'hzanitti1u@shareasale.com', 0);
+('9287824649', 'Heall', 'Muff', 'Zanitti', null, 'Male', 'BSIT 3-1', '2010-07-18', '10 Waywood Road', '8182486558', 'hzanitti1u@shareasale.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('8015165830', 'Whitney', 'Visco', 'Bilton', null, 'Male', 'Health Coach IV', '2013-04-22', '19676 Monica Lane', '2315580858', 'wbilton1v@sphinn.com', 0);
+('8015165830', 'Whitney', 'Visco', 'Bilton', null, 'Male', 'BSIT 3-1', '2013-04-22', '19676 Monica Lane', '2315580858', 'wbilton1v@sphinn.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values
-('9229479209', 'Aretha', 'Lattos', 'Beatey', null, 'Male', 'Software Engineer II', '2000-10-14', '99 4th Hill', '1079516665', 'abeatey1w@msn.com', 1);
+('9229479209', 'Aretha', 'Lattos', 'Beatey', null, 'Male', 'BSIT 3-1', '2000-10-14', '99 4th Hill', '1079516665', 'abeatey1w@msn.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('0199085072', 'Hercules', 'Hamill', 'Kennerknecht', 'Jr', 'Male', 'Desktop Support Technician', '2009-08-13', '68 Vermont Circle', '5017913650', 'hkennerknecht1x@answers.com', 1);
+('0199085072', 'Hercules', 'Hamill', 'Kennerknecht', 'Jr', 'Male', 'BSIT 3-1', '2009-08-13', '68 Vermont Circle', '5017913650', 'hkennerknecht1x@answers.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('4311397658', 'Harley', 'McCurdy', 'McAless', null, 'Female', 'Safety Technician I', '2007-10-11', '3 Merry Avenue', '4925003280', 'hmcaless1y@chicagotribune.com', 1);
+('4311397658', 'Harley', 'McCurdy', 'McAless', null, 'Female', 'BSIT 3-1', '2007-10-11', '3 Merry Avenue', '4925003280', 'hmcaless1y@chicagotribune.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('7728830112', 'Carlita', 'Davidoff', 'Pykerman', null, 'Male', 'Help Desk Operator', '2012-08-27', '83155 Corscot Avenue', '9133771039', 'cpykerman1z@comcast.net', 0);
+('7728830112', 'Carlita', 'Davidoff', 'Pykerman', null, 'Male', 'BSIT 3-1', '2012-08-27', '83155 Corscot Avenue', '9133771039', 'cpykerman1z@comcast.net', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('1231914513', 'Madonna', 'Petasch', 'Jeskin', null, 'Male', 'Staff Scientist', '1999-05-23', '006 Clemons Point', '6688582430', 'mjeskin20@google.co.uk', 1);
+('1231914513', 'Madonna', 'Petasch', 'Jeskin', null, 'Male', 'BSIT 3-1', '1999-05-23', '006 Clemons Point', '6688582430', 'mjeskin20@google.co.uk', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('2647631506', 'Leonore', 'Leve', 'Glader', 'II', 'Female', 'Account Executive', '2014-11-18', '299 Westridge Street', '9683734764', 'lglader21@wordpress.org', 1);
+('2647631506', 'Leonore', 'Leve', 'Glader', 'II', 'Female', 'BSIT 3-1', '2014-11-18', '299 Westridge Street', '9683734764', 'lglader21@wordpress.org', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('0970825765', 'Petronella', 'Pugsley', 'Fissenden', null, 'Female', 'Systems Administrator III', '2004-10-05', '08847 7th Crossing', '8642171789', 'pfissenden22@bbb.org', 0);
+('0970825765', 'Petronella', 'Pugsley', 'Fissenden', null, 'Female', 'BSIT 3-1', '2004-10-05', '08847 7th Crossing', '8642171789', 'pfissenden22@bbb.org', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('0114394601', 'Maressa', 'Le Page', 'Grimsey', null, 'Male', 'Senior Developer', '1996-11-06', '96 Maryland Pass', '5694992205', 'mgrimsey23@clickbank.net', 0);
+('0114394601', 'Maressa', 'Le Page', 'Grimsey', null, 'Male', 'BSIT 3-1', '1996-11-06', '96 Maryland Pass', '5694992205', 'mgrimsey23@clickbank.net', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('4030934455', 'Dalila', 'Shackleford', 'MacChaell', null, 'Male', 'Geological Engineer', '2003-09-15', '9 Goodland Pass', '7012416259', 'dmacchaell24@cnn.com', 1);
+('4030934455', 'Dalila', 'Shackleford', 'MacChaell', null, 'Male', 'BSIT 3-1', '2003-09-15', '9 Goodland Pass', '7012416259', 'dmacchaell24@cnn.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('3397667720', 'Bernie', 'Stone', 'Lazarus', 'IV', 'Female', 'Biostatistician IV', '2017-01-06', '22 Graceland Street', '7102173865', 'blazarus25@ft.com', 0);
+('3397667720', 'Bernie', 'Stone', 'Lazarus', 'IV', 'Female', 'BSIT 3-1', '2017-01-06', '22 Graceland Street', '7102173865', 'blazarus25@ft.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('7406249187', 'Hardy', 'Studdal', 'Dugget', null, 'Female', 'Registered Nurse', '2015-11-02', '35 Haas Trail', '4531931201', 'hdugget26@quantcast.com', 1);
+('7406249187', 'Hardy', 'Studdal', 'Dugget', null, 'Female', 'BSIT 3-1', '2015-11-02', '35 Haas Trail', '4531931201', 'hdugget26@quantcast.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('0446420190', 'Jane', 'Matveichev', 'Raiker', 'Jr', 'Male', 'Account Executive', '2012-04-03', '50509 Stephen Center', '4914998753', 'jraiker27@sitemeter.com', 0);
+('0446420190', 'Jane', 'Matveichev', 'Raiker', 'Jr', 'Male', 'BSIT 3-1', '2012-04-03', '50509 Stephen Center', '4914998753', 'jraiker27@sitemeter.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('7527341750', 'Curtis', 'Gilfoyle', 'Gerdes', null, 'Female', 'Accounting Assistant I', '2003-09-07', '146 Muir Center', '5325923418', 'cgerdes28@tripod.com', 0);
+('7527341750', 'Curtis', 'Gilfoyle', 'Gerdes', null, 'Female', 'BSIT 3-1', '2003-09-07', '146 Muir Center', '5325923418', 'cgerdes28@tripod.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('8364342029', 'Dalston', 'Morphey', 'MacPhee', null, 'Female', 'Assistant Media Planner', '2008-07-12', '6 Old Shore Center', '3201400969', 'dmacphee29@adobe.com', 0);
+('8364342029', 'Dalston', 'Morphey', 'MacPhee', null, 'Female', 'BSIT 3-1', '2008-07-12', '6 Old Shore Center', '3201400969', 'dmacphee29@adobe.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('8522371911', 'Michel', 'Bannon', 'Colborn', null, 'Male', 'Pharmacist', '2009-05-09', '3985 Loeprich Lane', '3139312565', 'mcolborn2a@webnode.com', 1);
+('8522371911', 'Michel', 'Bannon', 'Colborn', null, 'Male', 'BSIT 3-1', '2009-05-09', '3985 Loeprich Lane', '3139312565', 'mcolborn2a@webnode.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('3172887847', 'Gisele', 'Filipic', 'Ollier', null, 'Male', 'Sales Associate', '1999-11-02', '52889 Hintze Road', '9264447348', 'gollier2b@msu.edu', 1);
+('3172887847', 'Gisele', 'Filipic', 'Ollier', null, 'Male', 'BSIT 3-1', '1999-11-02', '52889 Hintze Road', '9264447348', 'gollier2b@msu.edu', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('2617221555', 'Tandie', 'Albury', 'Kirwood', null, 'Male', 'Tax Accountant', '1999-10-15', '988 Hanson Court', '3411211613', 'tkirwood2c@google.ca', 0);
+('2617221555', 'Tandie', 'Albury', 'Kirwood', null, 'Male', 'BSIT 3-1', '1999-10-15', '988 Hanson Court', '3411211613', 'tkirwood2c@google.ca', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('3939394483', 'See', 'Simkovich', 'Beggi', 'II', 'Male', 'Project Manager', '1995-12-31', '006 Darwin Crossing', '2187968018', 'sbeggi2d@who.int', 1);
+('3939394483', 'See', 'Simkovich', 'Beggi', 'II', 'Male', 'BSIT 3-1', '1995-12-31', '006 Darwin Crossing', '2187968018', 'sbeggi2d@who.int', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('0373660642', 'Kim', 'MacCallam', 'Stoakes', null, 'Male', 'Actuary', '1997-10-18', '76185 Sloan Way', '5813788537', 'kstoakes2e@cyberchimps.com', 1);
+('0373660642', 'Kim', 'MacCallam', 'Stoakes', null, 'Male', 'BSIT 3-1', '1997-10-18', '76185 Sloan Way', '5813788537', 'kstoakes2e@cyberchimps.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('5436716245', 'Edithe', 'Coyte', 'Petrasek', null, 'Female', 'Paralegal', '2017-02-22', '3 Becker Circle', '9047781060', 'epetrasek2f@smugmug.com', 1);
+('5436716245', 'Edithe', 'Coyte', 'Petrasek', null, 'Female', 'BSIT 3-1', '2017-02-22', '3 Becker Circle', '9047781060', 'epetrasek2f@smugmug.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('0388904208', 'Gert', 'Orth', 'Broadfoot', null, 'Male', 'Environmental Specialist', '2009-07-12', '62141 Independence Parkway', '6537980119', 'gbroadfoot2g@cloudflare.com', 1);
+('0388904208', 'Gert', 'Orth', 'Broadfoot', null, 'Male', 'BSIT 3-1', '2009-07-12', '62141 Independence Parkway', '6537980119', 'gbroadfoot2g@cloudflare.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('5842671441', 'Kirbee', 'Vargas', 'Foxten', 'Jr', 'Male', 'Chemical Engineer', '2015-03-19', '2305 Kensington Circle', '6034572996', 'kfoxten2h@prnewswire.com', 0);
+('5842671441', 'Kirbee', 'Vargas', 'Foxten', 'Jr', 'Male', 'BSIT 3-1', '2015-03-19', '2305 Kensington Circle', '6034572996', 'kfoxten2h@prnewswire.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('9258423208', 'Laverna', 'Rouff', 'Bestman', null, 'Female', 'Product Engineer', '2011-01-07', '61 Kennedy Pass', '2872204964', 'lbestman2i@wp.com', 1);
+('9258423208', 'Laverna', 'Rouff', 'Bestman', null, 'Female', 'BSIT 3-1', '2011-01-07', '61 Kennedy Pass', '2872204964', 'lbestman2i@wp.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values
-('5043666234', 'Moise', 'Smiley', 'Strethill', null, 'Female', 'Payment Adjustment Coordinator', '2015-03-01', '3079 Glendale Park', '5808224749', 'mstrethill2j@craigslist.org', 0);
+('5043666234', 'Moise', 'Smiley', 'Strethill', null, 'Female', 'BSIT 3-1', '2015-03-01', '3079 Glendale Park', '5808224749', 'mstrethill2j@craigslist.org', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('1774765403', 'Aimee', 'May', 'Atheis', 'IV', 'Female', 'Director of Sales', '2021-09-27', '32551 Texas Crossing', '7895810035', 'aatheis2k@omniture.com', 0);
+('1774765403', 'Aimee', 'May', 'Atheis', 'IV', 'Female', 'BSIT 3-1', '2021-09-27', '32551 Texas Crossing', '7895810035', 'aatheis2k@omniture.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values
-('6890815807', 'Roxy', 'Swede', 'Wartnaby', null, 'Male', 'Senior Cost Accountant', '2004-08-16', '82 Mallard Place', '7243862598', 'rwartnaby2l@ca.gov', 0);
+('6890815807', 'Roxy', 'Swede', 'Wartnaby', null, 'Male', 'BSIT 3-1', '2004-08-16', '82 Mallard Place', '7243862598', 'rwartnaby2l@ca.gov', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('6397993523', 'Leta', 'Wreford', 'Gaymer', null, 'Female', 'Librarian', '2015-03-15', '038 Mayfield Road', '1261840149', 'lgaymer2m@illinois.edu', 0);
+('6397993523', 'Leta', 'Wreford', 'Gaymer', null, 'Female', 'BSIT 3-1', '2015-03-15', '038 Mayfield Road', '1261840149', 'lgaymer2m@illinois.edu', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values
-('8979973853', 'Maiga', 'Zoane', 'Cobden', null, 'Female', 'Help Desk Operator', '2016-06-29', '441 Schlimgen Park', '2964924900', 'mcobden2n@google.es', 0);
+('8979973853', 'Maiga', 'Zoane', 'Cobden', null, 'Female', 'BSIT 3-1', '2016-06-29', '441 Schlimgen Park', '2964924900', 'mcobden2n@google.es', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('6473384766', 'Jannelle', 'Blakes', 'Muzzollo', null, 'Male', 'Analog Circuit Design manager', '2004-12-07', '84477 Warbler Point', '2899897680', 'jmuzzollo2o@theglobeandmail.com', 0);
+('6473384766', 'Jannelle', 'Blakes', 'Muzzollo', null, 'Male', 'BSIT 3-1', '2004-12-07', '84477 Warbler Point', '2899897680', 'jmuzzollo2o@theglobeandmail.com', 0);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('4391246651', 'Warde', 'Deackes', 'Simony', null, 'Female', 'Analyst Programmer', '2001-10-04', '49008 Hallows Place', '1557926556', 'wsimony2p@trellian.com', 1);
+('4391246651', 'Warde', 'Deackes', 'Simony', null, 'Female', 'BSIT 3-1', '2001-10-04', '49008 Hallows Place', '1557926556', 'wsimony2p@trellian.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('0051703025', 'Ilise', 'Hatt', 'Rysdale', null, 'Female', 'Legal Assistant', '2021-02-27', '4746 4th Circle', '5801176748', 'irysdale2q@marriott.com', 1);
+('0051703025', 'Ilise', 'Hatt', 'Rysdale', null, 'Female', 'BSIT 3-1', '2021-02-27', '4746 4th Circle', '5801176748', 'irysdale2q@marriott.com', 1);
 insert into tbl_student_profile (Student_ID, Student_First_Name, Student_Middle_Name, Student_Last_Name, Student_Suffix, Student_Sex, Student_Section, Student_Birthday, Student_Address, Student_Contact_Number, Student_Email_Address, is_archive) values 
-('0040737004', 'Emmalynne', 'Jecks', 'Dagon', null, 'Male', 'Senior Cost Accountant', '2001-03-02', '833 Johnson Way', '9603110318', 'edagon2r@home.pl', 1);
+('0040737004', 'Emmalynne', 'Jecks', 'Dagon', null, 'Male', 'BSIT 3-1', '2001-03-02', '833 Johnson Way', '9603110318', 'edagon2r@home.pl', 1);
