@@ -42,6 +42,7 @@
                 <li class="nav-item"><a href="" class="nav-link px-2 text-muted" data-bs-toggle="tooltip" data-bs-placement="top" title="Renniel Gerongga">Gerongga</a></li>
                 <li class="nav-item"><a href="" class="nav-link px-2 text-muted" data-bs-toggle="tooltip" data-bs-placement="top" title="Vina Mae Nueva">Nueva</a></li>
                 <li class="nav-item"><a href="" class="nav-link px-2 text-muted" data-bs-toggle="tooltip" data-bs-placement="top" title="Mark Dennis Sanchez">Sanchez</a></li>
+                <li class="nav-item"><a href="" class="nav-link px-2 text-muted" data-bs-toggle="tooltip" data-bs-placement="top" title="Mark Dennis Sanchez">Sardido</a></li>
             </ul>
             <p class="text-center text-muted">2021 PHP-CRUD Final Project</p>
         </footer>
