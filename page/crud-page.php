@@ -19,7 +19,7 @@
                 <th scope="col" id="address">Address</th>
                 <th scope="col" id="number">Contact number</th>
                 <th scope="col" id="email">E-mail address</th>
-                <th scope="col" id="query">Query</th>
+                <th scope="col" id="query">Action</th>
             </tr>
         </thead>
         <tbody>
